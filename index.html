@@ -1,74 +1,98 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VergeMotion - Revolutionizing Transit</title>
+    <title>VergeMotion - Future of Transit</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
+            background: linear-gradient(to bottom, #1f1f1f, #333);
+            color: #e0e0e0;
             line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
         }
         header {
-            background: #4CAF50;
-            color: white;
-            padding: 1.5em 1em;
-            text-align: center;
+            background: linear-gradient(to right, #4CAF50, #1F8EFA);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1em;
+            position: relative;
+            border-bottom: 3px solid #222;
         }
         header h1 {
-            font-size: 2.5em;
+            font-size: 3em;
             margin: 0;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
         }
-        header p {
-            font-size: 1.2em;
+        header .ad-space {
+            width: 20%;
+            height: auto;
+            text-align: center;
+            color: white;
+            font-size: 1em;
+        }
+        header .ad-space div {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5em;
+            border: 2px dashed #fff;
+            border-radius: 8px;
+            color: #fff;
         }
         .content {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 2em auto;
-            background: white;
-            padding: 1.5em;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: rgba(0, 0, 0, 0.8);
+            padding: 2em;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
         }
         .content h2 {
             color: #4CAF50;
-            margin-bottom: 1em;
             text-align: center;
+            font-size: 2em;
+            text-shadow: 1px 1px 3px #000;
+        }
+        .content p {
+            text-align: center;
+            font-size: 1.2em;
         }
         .image-container {
-            margin: 1.5em 0;
-            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5em;
+            margin: 2em 0;
         }
         .image-container img {
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            margin-bottom: 1em;
-            max-width: 100%;
-            width: auto;
+            width: 100%;
             height: auto;
+            border: 3px solid #444;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
         }
         .insight {
-            text-align: center;
             margin-top: 2em;
+            text-align: center;
         }
-        .insight p {
-            font-size: 1.2em;
-            margin-bottom: 1em;
+        .insight ul {
+            list-style: none;
+            padding: 0;
+        }
+        .insight ul li {
+            margin: 0.5em 0;
+            font-size: 1.1em;
+            color: #a0ffbf;
         }
         footer {
-            background: #333;
-            color: white;
+            background: #111;
+            color: #fff;
             text-align: center;
             padding: 1em 0;
-            margin-top: 2em;
-        }
-        footer p {
-            margin: 0;
+            border-top: 3px solid #222;
         }
         footer a {
             color: #4CAF50;
@@ -78,16 +102,24 @@
 </head>
 <body>
     <header>
+        <div class="ad-space">
+            <div>
+                <p>Ad Space</p>
+            </div>
+        </div>
         <h1>VergeMotion</h1>
-        <p>Revolutionizing Inner-State Travel for a Better Future</p>
+        <div class="ad-space">
+            <div>
+                <p>Ad Space</p>
+            </div>
+        </div>
     </header>
 
     <div class="content">
-        <h2>Our Vision</h2>
+        <h2>The Future of Inner-State Travel</h2>
         <p>
-            At VergeMotion, we aim to make inner-state travel faster, more efficient, and more affordable. 
-            By connecting communities with high-speed, sustainable transportation, we empower residents 
-            to access better housing, jobs, and opportunities, making life more affordable and equitable for everyone.
+            VergeMotion is building a revolutionary transit system to connect communities faster, reduce housing costs, 
+            and enhance sustainable living through high-speed transportation. Join us in shaping the future.
         </p>
 
         <div class="image-container">
@@ -98,22 +130,18 @@
         </div>
 
         <div class="insight">
-            <h2>Why VergeMotion?</h2>
-            <p>
-                By enabling faster inner-state travel, VergeMotion:
-            </p>
+            <h2>How VergeMotion Benefits You</h2>
             <ul>
-                <li>Reduces commute times, helping people spend more time with their families.</li>
-                <li>Opens access to affordable housing options outside major urban areas.</li>
-                <li>Boosts regional economies by connecting cities and rural areas seamlessly.</li>
-                <li>Supports sustainability with low-emission transportation solutions.</li>
+                <li>Faster commutes, giving you more time with loved ones.</li>
+                <li>Access to affordable housing outside major cities.</li>
+                <li>Boosts local economies by connecting regions seamlessly.</li>
+                <li>Environmentally friendly, with zero-emission systems.</li>
             </ul>
         </div>
     </div>
 
     <footer>
-        <p>© 2024 VergeMotion | <a href="https://www.vergemotion.com">Visit Us</a></p>
+        <p>© 2024 VergeMotion | <a href="https://www.vergemotion.com">Learn More</a></p>
     </footer>
 </body>
 </html>
-
